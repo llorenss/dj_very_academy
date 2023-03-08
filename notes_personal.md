@@ -1,3 +1,5 @@
+https://github.com/llorenss/dj_very_academy
+
 apt install python3.10-venv
 
 linux vs code
