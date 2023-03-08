@@ -101,3 +101,6 @@ settings.json
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
 }
+
+
+pip install flake8
