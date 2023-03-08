@@ -1,0 +1,40 @@
+apt install python3.10-venv
+
+linux vs code
+    python3 -m venv ve
+
+windows vs code
+    py -m venv ve
+
+linux vs code
+source ve/bin/activate
+    source /home/kirill/Python/va_ecom/ve/bin/activate
+
+windows vs code
+    ve\Scripts\Activate.ps1
+
+
+C:\Python\dj_very_academy\ve\Scripts\python.exe -m pip install --upgrade pip
+
+pip install django black
+
+django-admin startproject drfecommerce 
+
+cd drfecommerce
+
+black "--line-length=79" ./
+
+linux
+    ./manage.py runserver
+
+windows
+    python manage.py runserver
+    
+Started lesson:
+    https://www.youtube.com/@veryacademy
+    Django DRF Project | Modularizing Django Settings | 2 
+    https://youtu.be/0WXVAMGisWs
+
+
+
+
