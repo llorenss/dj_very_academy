@@ -51,4 +51,10 @@ pip install -r requirements.txt
 
 https://pypi.org/project/python-dotenv/
 
-pip install python-dotenv 1.0.0
+pip install python-dotenv
+
+pip install djangorestframework
+
+https://pypi.org/
+
+https://www.django-rest-framework.org/
