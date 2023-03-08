@@ -44,3 +44,7 @@ python manage.py shell
 
     Use quit() or Ctrl-Z plus Return to exit
 
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
