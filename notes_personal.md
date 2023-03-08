@@ -78,3 +78,26 @@ https://pytest-django.readthedocs.io/en/latest/
 DJANGO_SETTINGS_MODULE = test.settings
 # -- recommended but optional:
 python_files = tests.py test_*.py *_tests.py
+
+
+.vscode
+settings.json
+{
+    "editor.formatOnSave": true,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Fira Code",
+    "editor.minimap.enabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    "[python]": {
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": true
+        },
+        "editor.formatOnType": true,
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+}
