@@ -1,1 +1,5 @@
-/ve
+ve/
+.pytest_cache
+**__pycache__/
+db.sqlite3
+.vscode
