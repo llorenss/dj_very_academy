@@ -109,3 +109,6 @@ python manage.py startapp product ./drfecommerce/product
 
 
 pip install django-mptt
+
+python manage.py makemigrations
+python manage.py migrate
