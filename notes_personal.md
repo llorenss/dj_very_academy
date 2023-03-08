@@ -104,3 +104,5 @@ settings.json
 
 
 pip install flake8
+
+python manage.py startapp product ./drfecommerce/product
