@@ -44,7 +44,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # External Packages
     "rest_framework",
+    "drf_spectacular",
+    # Internal Apps
     "drfecommerce.product",
 ]
 
@@ -131,4 +134,10 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-REST_FRAMEWORK = {}
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPRECTACULAR_SETTINGS = {
+    "TITLE": "Django DRF Ecommerce",
+}

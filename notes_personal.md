@@ -114,3 +114,23 @@ python manage.py makemigrations
 python manage.py migrate
 
 python manage.py createsuperuser
+
+https://pypi.org/search/?q=drf-spectacular&o=
+
+pip install drf-spectacular
+
+INSTALLED_APPS = [
+    ...
+    "drf_spectacular",
+    ...
+]
+
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPRECTACULAR_SETTINGS = {
+    "TITLE": "Django DRF Ecommerce",
+}
+
+python manage.py spectacular --file shcema.yml
