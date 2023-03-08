@@ -37,4 +37,10 @@ Started lesson:
 
 
 
+python manage.py shell
+    from django.core.management.utils import get_random_secret_key
+    print(get_random_secret_key())
+    m0zl&+r%jyb0$6l+7@v)qaclmgq2awf^4_cj1b5=qm&uwvk5$c
+
+    Use quit() or Ctrl-Z plus Return to exit
 
