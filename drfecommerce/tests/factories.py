@@ -16,7 +16,7 @@ class BrandFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = Brand
 
-    name = "test_branding"
+    name = factory.Sequence(lambda n: "Brand_%d" % n)
 
 
 class ProductFactory(factory.django.DjangoModelFactory):
