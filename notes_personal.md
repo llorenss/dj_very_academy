@@ -150,3 +150,9 @@ http://127.0.0.1:8000/api/brand/
  pip install pytest-cov
 
  pytest --cov
+
+ Unit Test
+
+class TestCategoryModel
+
+pip install pytest-factoryboy
