@@ -7,7 +7,9 @@ class CategoryFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = Category
 
-    name = "test_category"
+    # name = "test_category"
+    # добавили в модель атрибут unique и чтобы проходило проверку
+    name = factory.Sequence(lambda n: "Category_%d" % n)
 
 
 class BrandFactory(factory.django.DjangoModelFactory):
