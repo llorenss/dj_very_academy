@@ -131,8 +131,11 @@ SPRECTACULAR_SETTINGS = {
 
 python manage.py spectacular --file shcema.yml
 
+http://127.0.0.1:8000/api/schema/docs
 http://127.0.0.1:8000/api/schema/docs#/api/api_brand_list
 http://127.0.0.1:8000/api/brand/
 
 
  Django DRF Project | Implimenting Product | 20 
+
+ http://127.0.0.1:8000/api/schema/docs#/api/api_product_list
