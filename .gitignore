@@ -4,3 +4,5 @@ ve/
 db.sqlite3
 .vscode
 shcema.yml
+htmlcov/
+.coverage
